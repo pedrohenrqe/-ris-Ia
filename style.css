@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  background-image: url(./img/éris.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+}
+
+.interface {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+  padding: 20px;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.login-form input {
+  width: 25vw;
+  height: 5vh;
+  background-color: #333333; 
+  border: 2px solid #C0C0C0;
+  color: #E0E0E0;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+.login-form h1 {
+  color: #C0C0C0;
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+}
+
+.login-button {
+  width: 140px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff; 
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.login-button:hover {
+  border: 2px solid #333333; 
+  color: #333333;
+  background-color: #ffffff;
+}
